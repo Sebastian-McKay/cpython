@@ -484,7 +484,7 @@ Literal = _SpecialForm('Literal', doc=
    is allowed as type argument to Literal[...], but type checkers may
    impose restrictions.
     """)
-
+ 
 
 class ForwardRef(_Final, _root=True):
     """Internal wrapper to hold a forward reference."""
